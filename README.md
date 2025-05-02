@@ -48,3 +48,6 @@ Authorize the account by inserting the token from the response when signing in.
 ![](Screenshots/delete todo request.png)
 ![](Screenshots/delete todo response.png)
 
+## Docker
+Docker was setup and can be monitored in the Docker Desktop
+![](Screenshots/docker.png)
