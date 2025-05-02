@@ -6,7 +6,7 @@
 ![](Screenshots/signup-response.png)
 
 2. OTP sent to the user's email
-![](Screenshots/otp-email.jpg)
+![](Screenshots/email-otp.jpg)
 
 3. Verify email with POST /service/user/verify-otp
 ![](Screenshots/verify-email-request.png)
