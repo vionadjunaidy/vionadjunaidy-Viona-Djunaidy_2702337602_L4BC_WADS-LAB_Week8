@@ -41,12 +41,12 @@ Authorize the account by inserting the token from the response when signing in.
 ![](Screenshots/update-todo-response.png)
 
 3. Retrieve all the saved todos of an authenticated user’s with GET /service/todo/get_all
-![](Screenshots/get all todo request.png)
-![](Screenshots/get all todo response.png)
+![](Screenshots/get-all-todo-request.png)
+![](Screenshots/get-all-todo-response.png)
 
 4. Delete a todo of an authenticated user with DELETE /service/todo/delete_todo/{id}
-![](Screenshots/delete todo request.png)
-![](Screenshots/delete todo response.png)
+![](Screenshots/delete-todo-request.png)
+![](Screenshots/delete-todo-response.png)
 
 ## Docker
 Docker was setup and can be monitored in the Docker Desktop
