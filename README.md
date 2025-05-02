@@ -2,49 +2,49 @@
 
 ## User
 1. Sign up a new user with POST /service/user/signup
-![](signup request.png)
-![](signup response.png)
+![](Screenshots/signup request.png)
+![](Screenshots/signup response.png)
 
 2. OTP sent to the user's email
-![](otp email.jpg)
+![](Screenshots/otp email.jpg)
 
 3. Verify email with POST /service/user/verify-otp
-![](verify email request.png)
-![](verify email response.png)
+![](Screenshots/verify email request.png)
+![](Screenshots/verify email response.png)
 
 4. Sign in with POST /service/user/signin
-![](signin request.png)
-![](signin response.png)
+![](Screenshots/signin request.png)
+![](Screenshots/signin response.png)
 
 5. Update user details of an authenticated user with PATCH /service/user/update-user
-![](update user request.png)
-![](update user response.png)
+![](Screenshots/update user request.png)
+![](Screenshots/update user response.png)
 
 6. Get user info of an authenticated user with GET /service/user/user-infor
-![](user info request.png)
-![](user inforesponse.png)
+![](Screenshots/user info request.png)
+![](Screenshots/user inforesponse.png)
 
 7. Delete a user of an authenticated user with DELETE /service/user/delete-user
-![](delete user.png)
+![](Screenshots/delete user.png)
 
 ## Authorize
 Authorize the account by inserting the token from the response when signing in.
-![](authorization.png)
+![](Screenshots/authorization.png)
 
 ## Todo
 1. Add a todo saved in an authenticated user’s account with POST /service/todo/add_todo
-![](add todo request.png)
-![](add todo response.png)
+![](Screenshots/add todo request.png)
+![](Screenshots/add todo response.png)
 
 2. Update a todo saved in an authenticated user’s account with POST /service/todo/update_todo/{id}
-![](update todo request.png)
-![](update todo response.png)
+![](Screenshots/update todo request.png)
+![](Screenshots/update todo response.png)
 
 3. Retrieve all the saved todos of an authenticated user’s with GET /service/todo/get_all
-![](get all todo request.png)
-![](get all todo response.png)
+![](Screenshots/get all todo request.png)
+![](Screenshots/get all todo response.png)
 
 4. Delete a todo of an authenticated user with DELETE /service/todo/delete_todo/{id}
-![](delete todo request.png)
-![](delete todo response.png)
+![](Screenshots/delete todo request.png)
+![](Screenshots/delete todo response.png)
 
